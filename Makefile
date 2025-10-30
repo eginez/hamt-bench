@@ -49,7 +49,8 @@ HAMT_PROFILE_DEPS := $(HAMT_PROFILE_OBJS:.o=.d)
 
 CCFLAGS ?= -MMD -MP -O3 # -g # -Rpass=tailcallelim
 
-all: hamt glib hsearch avl rb
+#all: hamt glib hsearch avl rb
+all: hamt
 
 profile: $(BUILD_DIR)/profile-hamt
 
