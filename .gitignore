@@ -1,0 +1,6 @@
+# macOS Instruments profiling output
+profiles/
+*.trace
+
+# Build artifacts (if not already ignored)
+build/
